@@ -103,3 +103,26 @@ footer{
     padding: 1em;
     text-align: center;
 }
+
+body{
+    text-align: center;
+}
+
+body p{
+    text-align: left;
+    text-indent: 50px;
+}
+
+#tech-stack{
+    text-align: center;
+    text-indent: 0px;
+}
+
+#getInTouch p{
+    text-align: center;
+    text-indent: 0px;
+}
+
+#getInTouch li{
+    list-style-position: inside;
+}
