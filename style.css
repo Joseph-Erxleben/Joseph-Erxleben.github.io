@@ -13,7 +13,7 @@ html{
 }
 
 h1, h2, h3{
-    color: #666;
+    color: rgb(0, 0, 0);
 }
 
 header,
@@ -34,7 +34,7 @@ header h1{
 
 header span{
     font-size: 1.5em;
-    color: #999;
+    color: rgb(0, 0, 0);
 }
 
 nav{
@@ -70,6 +70,7 @@ section{
 
 section > p{
     margin: 1em;
+    
 }
 
 section ul{
@@ -90,6 +91,11 @@ section ul{
     padding: 1em;
 }
 
+#projects article p{
+    text-indent: 0px;
+    text-align: center;
+}
+
 img{
     width: 100%;
     border: 1px solid #333;
@@ -106,6 +112,8 @@ footer{
 
 body{
     text-align: center;
+    background-color: #6b6b6b;
+    background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
 }
 
 body p{
